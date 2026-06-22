@@ -1,0 +1,53 @@
+.moodboard-mini {
+  width: 120px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* COLORES */
+.moodboard-mini .swatch {
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+/* TIPOS */
+.moodboard-mini .type {
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* TAMAÑOS */
+.moodboard-mini .size {
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* TEXTO INTERNO */
+.moodboard-mini span {
+  font-size: 8px;
+  font-family: var(--f-mono);
+  color: var(--text-contrast);
+  background: rgba(0,0,0,.25);
+  padding: 1px 4px;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+}
